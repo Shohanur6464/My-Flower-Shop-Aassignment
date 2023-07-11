@@ -101,3 +101,22 @@
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+.single-banner{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 70px 80px 10px 70px;
+    padding: 30px 180px;
+    align-items: center;
+    text-align: center;
+}
+
+.support{
+    color: rgba(39, 39, 39, 0.80);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+}
