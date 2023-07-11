@@ -73,17 +73,21 @@
 }
 
 .Pink-tree{
+    width: 340px;
+    height: 425px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding: 15px 20px 0px 20px;
 }
 .Pink-tree-1{
+    width: 340px;
+    height: 370px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 30px 20px 40px 20px;
 }
 .Pink-tree-2{
-    width: 350px;
+    width: 340px;
     height: 440px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
@@ -123,12 +127,13 @@
 
 .sale-up-to-section{
     display: flex;
-    border: 2px solid white
+    border: 2px solid white;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     margin-top: 70px;
+    padding: 0px 70px 0px 70px;
     
 }
 
@@ -142,6 +147,7 @@
 
 .img-sale{
     padding: 30px 0px;
+    margin-left: 100px;
 }
 
 .sale-up-details{
@@ -151,4 +157,37 @@
 #clr{
     color: #E55473;
 
+}
+
+.insta-section{
+    margin-top: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.insta-tittle{ 
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+.insta-details{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.insta-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.insta-img img{
+    width: 270px;
+    height: 320px;
 }
