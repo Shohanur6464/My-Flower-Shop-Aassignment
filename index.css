@@ -1,3 +1,9 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .bann{
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -12,14 +18,12 @@
 
 .banner-statement{
     color: #272727;
-    font-family: Lato;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
 }
 
 .banner-details{
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -48,14 +52,12 @@
 .section-first-head{
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
 }
 .section-first-details{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -99,7 +101,6 @@
 .tree{
     margin-top: 15px;
     color: #272727;
-    font-family: Lato;
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
@@ -119,7 +120,6 @@
 
 .support{
     color: rgba(39, 39, 39, 0.80);
-    font-family: Lato;
     font-size: 20px;
     font-weight: 600;
     padding-top: 10px;
@@ -140,7 +140,6 @@
 .sale-up{
     padding: 100px 30px 0px 30px;
     color: #272727;
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
 }
@@ -152,7 +151,7 @@
 
 .sale-up-details{
     padding-top: 0px;
-    width: 594px
+    width: 700px
 }
 #clr{
     color: #E55473;
@@ -167,14 +166,12 @@
 
 .insta-tittle{ 
     color: #272727;
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
     margin-top: 50px;
 }
 .insta-details{
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -191,3 +188,80 @@
     width: 270px;
     height: 320px;
 }
+
+.subscribe-section {
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+
+}
+    
+
+.input-box input{
+    width: 450px;
+    height: 53px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+
+.subscribe-tittle{
+    text-align: center;
+    padding-top: 80px;
+}
+
+
+.emai-subs{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.subscribe-tittle{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 0px;
+}
+
+.s-details{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.foot{
+    margin-top: 80px;
+    text-align: center;
+    background-color: #111010;
+    color: white;
+    padding: 40px;
+
+}
+
+.heading-1{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.h-details{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#shop{
+    color: white;
+}
+
+.p-bottom{
+    padding-top: 20px;
+}
+
+
+
+
